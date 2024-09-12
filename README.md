@@ -2,7 +2,7 @@
 
 Link to Tableau Public workbook: https://public.tableau.com/app/profile/ardeshir.pashootan/viz/CitiBikeChallenge_17260054909130/BusiestHours
 
-## Data Cleaning & Transformation Overview
+## Data Cleaning & Transformation Overview (Source files were not loaded as they were too large)
 - **Data Loading**: Imported CitiBike trip data with key fields like start/end times, station locations, and user demographics.
 - **Condensing Data**: Since the data available was incredibly large and I am working with Tableau Public, I had to condense the data set in order to reduce the computational stress. To keep the integrity of data intact I took measure to ensure that the data   
                        condensation was done randomly to ensure there were not any biases.  
