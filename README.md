@@ -4,6 +4,8 @@ Link to Tableau Public workbook: https://public.tableau.com/app/profile/ardeshir
 
 ## Data Cleaning & Transformation Overview
 - **Data Loading**: Imported CitiBike trip data with key fields like start/end times, station locations, and user demographics.
+- **Condensing Data**: Since the data available was incredibly large and I am working with Tableau Public, I had to condense the data set in order to reduce the computational stress. To keep the integrity of data intact I took measure to ensure that the data   
+                       condensation was done randomly to ensure there were not any biases.  
 - **Missing Values**: Handled missing or invalid data by removing or imputing values where necessary.
 - **Date/Time Formatting**: Extracted year, month, day, and hour from datetime fields for time-based analysis.
 - **Distance Calculation**: Applied the Haversine formula to calculate trip distances using latitude and longitude.
